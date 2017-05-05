@@ -1,1 +1,3 @@
-console.log("oi");
+const logger = require("./logger")
+
+logger.info("Using CommonJS");
