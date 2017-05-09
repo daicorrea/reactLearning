@@ -10,5 +10,21 @@ module.exports = {
     devServer: {
         port: 8080,
         contentBase: './public'
+    },
+      module: {
+        loaders: [{
+            test: /.js[x]?$/,
+            loader: 'babel-loader',
+            exclude: /node_modules/,
+            query: {
+                presets: ['es2015']
+            }
+        }/*, {
+            test: /\.css$/,
+            loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
+        }, {
+            test: /\.woff|.woff2|.ttf|.eot|.svg|.png|.jpg*.*$/,
+            loader: 'file'
+        }*/]
     }
 }

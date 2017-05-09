@@ -1,12 +1,5 @@
-class Person {
-    constructor(name) {
-        this.name = name
-    }
-
-    toString() {
-        return `Person: ${this.name}`
-    }
-}
+import Person from './person'
 
 const person = new Person("Daiane");
 console.log(person);
+
