@@ -3,7 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')//Help read .css
 
 //Make everything that is inside this object visible outside of this file
 module.exports = {
-    entry: './ex/index.js', //This will be the entry file for the webpack, the initial one
+    entry: './ex/index.jsx', //This will be the entry file for the webpack, the initial one
     output: {
         path: __dirname + '/public',
         filename: './bundle.js'
