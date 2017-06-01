@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SmithFamily from './smithFamily';
+import Family from './family';
+import Member from './member.js';
 
 ReactDOM.render(
-    <SmithFamily /> 
+    <Family>
+        <Member name='Alan' lastName='Smith' />
+    </Family>
 , document.getElementById('app'));
-console.log("Funcionou");
 
