@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Component from './component';
+import { First, Second } from './component';
 
-/*import App from './App';
+//import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import './index.css';*/
+//import './index.css';*/
 
 /*ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();*/
+*/
 
-ReactDOM.render(<Component value='AQUI' />, document.getElementById('app'));
-
+ReactDOM.render(
+    <div>
+        <First />
+        <Second />
+    </div>
+, document.getElementById('app'));
+registerServiceWorker();
 console.log("Funcionou");
 
