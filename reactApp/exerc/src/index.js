@@ -9,7 +9,7 @@ import './index.css';*/
 /*ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();*/
 
-ReactDOM.render(<Component />, document.getElementById('app'));
+ReactDOM.render(<Component value='AQUI' />, document.getElementById('app'));
 
 console.log("Funcionou");
 
