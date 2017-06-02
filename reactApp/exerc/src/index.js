@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Family from './family';
+import Family from './family.jsx';
 import Member from './member.js';
 
 ReactDOM.render(
