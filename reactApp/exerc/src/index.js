@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ClassComponent from './classComponent';
+import Field from './field.js';
 
 ReactDOM.render(
-    <ClassComponent label='Counter' initialValue={10} value={10}/>
+    <Field initialValue='Test'/>
 , document.getElementById('app'));
 
